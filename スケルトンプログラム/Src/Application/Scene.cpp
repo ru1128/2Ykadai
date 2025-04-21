@@ -3,12 +3,38 @@
 
 void Scene::Draw2D()
 {
-	// •¶Žš—ñ•\Ž¦
-	SHADER.m_spriteShader.DrawString(0, 0, "Hello World", Math::Vector4(1, 1, 0, 1));
+	switch (NowScene)
+	{
+	case Title:
+		break;
+	case Select:
+		break;
+	case Game:
+		break;
+	case Reslet:
+		break;
+	default:
+		break;
+	}
+
 }
 
 void Scene::Update()
 {
+
+	switch (NowScene)
+	{
+	case Title:
+		break;
+	case Select:
+		break;
+	case Game:
+		break;
+	case Reslet:
+		break;
+	default:
+		break;
+	}
 	
 }
 

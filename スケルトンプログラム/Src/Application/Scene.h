@@ -1,5 +1,11 @@
 #pragma once
-
+enum SceneType
+{
+	Title, //タイトル
+	Select,//セレクト
+	Game,  //ゲーム画面
+	Reslet,//リザルト
+};
 class Scene
 {
 private:
@@ -9,6 +15,8 @@ private:
 
 	// 行列 ・・・ 座標などの情報
 	Math::Matrix matrix;
+
+	SceneType NowScene;
 
 public:
 
