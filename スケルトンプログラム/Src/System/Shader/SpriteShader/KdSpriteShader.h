@@ -85,6 +85,13 @@ public:
 		DrawTex(tex, 0, 0, srcRect.width, srcRect.height, &srcRect, &Math::Color(1, 1, 1, alpha), pivot);
 	}
 
+	//色変更用
+	void DrawTex_Color(const KdTexture* tex, const Math::Rectangle& srcRect = { 0,0,0,0 }, const Math::Color& color = { 1,1,1,1 }, const Math::Vector2& pivot = { 0.5, 0.5f })
+	{
+		if (tex == nullptr)return;
+		DrawTex(tex, 0, 0, srcRect.width, srcRect.height, &srcRect, &color, pivot);
+	}
+
 	//４・５月の授業用文字表示
 	void DrawString(float _x, float _y, const char _text[], const Math::Vector4& _color)
 	{

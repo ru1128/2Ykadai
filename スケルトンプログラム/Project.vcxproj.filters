@@ -49,6 +49,12 @@
     <Filter Include="Src\Application\Enemy">
       <UniqueIdentifier>{4dd223c8-91b1-4d6b-b81f-8f856c7b7abd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Src\Application\GameScene">
+      <UniqueIdentifier>{3de6233d-935f-4830-b9ce-864d815f3941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Parameter">
+      <UniqueIdentifier>{c81c5ed9-d93e-4a8b-bc46-be1ecf43b58c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Pch.h">
@@ -150,6 +156,21 @@
     <ClInclude Include="Src\Application\Player\Player.h">
       <Filter>Src\Application\Player</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Application\GameScene\Title.h">
+      <Filter>Src\Application\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\GameScene\Fight.h">
+      <Filter>Src\Application\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\GameScene\Select.h">
+      <Filter>Src\Application\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\GameScene\Result.h">
+      <Filter>Src\Application\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Parameter\Parameter.h">
+      <Filter>Src\Application\Parameter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pch.cpp">
@@ -220,6 +241,21 @@
     </ClCompile>
     <ClCompile Include="Src\Application\Player\Player.cpp">
       <Filter>Src\Application\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\GameScene\Title.cpp">
+      <Filter>Src\Application\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\GameScene\Fight.cpp">
+      <Filter>Src\Application\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\GameScene\Select.cpp">
+      <Filter>Src\Application\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\GameScene\Result.cpp">
+      <Filter>Src\Application\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Parameter\Parameter.cpp">
+      <Filter>Src\Application\Parameter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
